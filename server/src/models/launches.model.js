@@ -63,7 +63,7 @@ async function loadLaunchData() {
             success: launchDoc['success'],
             customers: customers,
         };
-        console.log(`${launch.flightNumber} ${launch.mission}`);
+        // console.log(`${launch.flightNumber} ${launch.mission}`);
 
         await saveLaunch(launch);
     }
